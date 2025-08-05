@@ -1,0 +1,37 @@
+# AI for Engineering Examples - Requirements
+# This file contains all the Python packages required to run the notebooks in this repository
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Science and Numerical Computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Standard Library Modules (usually included with Python)
+# random - part of Python standard library
+# typing - part of Python standard library
+
+# Optional: For enhanced notebook experience
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For better plots and visualization
+plotly>=5.0.0
+
+# Note: The following packages are examples-specific
+# - torch: Used in autoencoder_AD_energy.ipynb, GAN.ipynb, Battery_Fast_Charging_Optimization.ipynb, Thermal_Insulation.ipynb
+# - torch.nn: Neural network layers and functions
+# - torch.optim: Optimizers (Adam, SGD)
+# - torch.nn.init: Weight initialization functions
+# - torchvision: For MNIST dataset and image transformations (GAN example)
+# - numpy: Used in all notebooks for numerical operations
+# - matplotlib.pyplot: Used in all notebooks for plotting and visualization
+# - seaborn: Used in q_learning.ipynb for enhanced heatmaps
+# - sklearn.model_selection: Used in autoencoder notebook for train_test_split
+# - random: Used in q_learning.ipynb for epsilon-greedy exploration
